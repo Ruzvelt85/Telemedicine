@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "WebAPI.IntegrationTests": {
+      "commandName": "Project"
+    }
+  }
+}

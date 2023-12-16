@@ -1,0 +1,41 @@
+[
+  {
+    "Id": "0068FC3E-B261-4BA9-834D-FBDB16A99F8D", // Valid conference
+    "AppointmentId": "C2B9F97C-4633-424B-BD8C-71C61E1704B5",
+    "AppointmentTitle": "Very long appointment with Bill Tryck #1",
+    "AppointmentStartDate": "2021-12-10",
+    "AppointmentDuration": "29.23:59:59",
+    "FullExtension": "2316215637747391561560009",
+    "RoomId": "704394",
+    "RoomUrl": "https://vidyo.io/join/Iep5qTbVC0",
+    "RoomPin": "160964088360",
+    "XmlResponse": "<soapnenv:Envelope><soapnenv:Body>Body</soapnenv:Body></soapnenv:Envelope>",
+    "IsDeleted": "false"
+  },
+  {
+    "Id": "3195E930-9185-4858-8E57-565D312AC1D3", // Valid conference
+    "AppointmentId": "43FEEE73-63D5-438B-AB6E-2A0BBB7B220F",
+    "AppointmentTitle": "Very long appointment with Bill Tryck #2",
+    "AppointmentStartDate": "2021-12-18",
+    "AppointmentDuration": "29.23:59:59",
+    "FullExtension": "2316215637754219182491973",
+    "RoomId": "733754",
+    "RoomUrl": "https://vidyo.io/join/ldeAJDPyA7",
+    "RoomPin": "918713304861",
+    "XmlResponse": "<soapnenv:Envelope><soapnenv:Body>Body</soapnenv:Body></soapnenv:Envelope>",
+    "IsDeleted": "false"
+  },
+  {
+    "Id": "10FF1795-2D80-4C81-94A6-B1F6F7B01E9A", // Valid conference
+    "AppointmentId": "5724BFA6-9EB0-4909-BE04-EC29AEA544C6",
+    "AppointmentTitle": "Very long appointment with Bill Tryck #3",
+    "AppointmentStartDate": "2021-12-17",
+    "AppointmentDuration": "29.23:59:59",
+    "FullExtension": "2316215637754220200841250",
+    "RoomId": "733755",
+    "RoomUrl": "https://vidyo.io/join/BG0KcImsC6",
+    "RoomPin": "583116025398",
+    "XmlResponse": "<soapnenv:Envelope><soapnenv:Body>Body</soapnenv:Body></soapnenv:Envelope>",
+    "IsDeleted": "false"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "Telemedicine.Common.Business.BusinessLogic": "\\common\\src\\Business\\BusinessLogic\\BusinessLogic.csproj",
+  "Telemedicine.Common.Contracts.GlobalContracts": "\\common\\src\\Contracts\\GlobalContracts\\GlobalContracts.csproj",
+  "Telemedicine.Common.Infrastructure.DAL.EfCoreDal": "\\common\\src\\Infrastructure\\DAL\\EfCoreDal\\EfCoreDal.csproj",
+  "Telemedicine.Common.Infrastructure.DAL.MigrationsEfCoreCommon": "\\common\\src\\Infrastructure\\DAL\\MigrationsEfCoreCommon\\MigrationsEfCoreCommon.csproj",
+  "Telemedicine.Common.Infrastructure.Logger.LoggerLibrarySerilogBase": "\\common\\src\\Infrastructure\\Logger\\LoggerLibrarySerilogBase\\LoggerLibrarySerilogBase.csproj",
+  "Telemedicine.Common.Infrastructure.CommonInfrastructure": "\\common\\src\\Infrastructure\\CommonInfrastructure\\CommonInfrastructure.csproj",
+  "Telemedicine.Common.Infrastructure.EntityBase": "\\common\\src\\Infrastructure\\EntityBase\\EntityBase.csproj",
+  "Telemedicine.Common.Infrastructure.EventBus": "\\common\\src\\Infrastructure\\EventBus\\EventBus.csproj",
+  "Telemedicine.Common.Infrastructure.Patterns": "\\common\\src\\Infrastructure\\Patterns\\Patterns.csproj",
+  "Telemedicine.Common.Infrastructure.Refit": "\\common\\src\\Infrastructure\\Refit\\Refit.csproj",
+  "Telemedicine.Common.ServiceInfrastructure.ServiceStartup": "\\common\\src\\ServiceInfrastructure\\ServiceStartup\\ServiceStartup.csproj",
+  "Telemedicine.Common.ServiceInfrastructure.WebApiCommon": "\\common\\src\\ServiceInfrastructure\\WebApiCommon\\WebApiCommon.csproj",
+  "Telemedicine.Common.Infrastructure.Testing": "\\common\\src\\Infrastructure\\Testing\\Testing.csproj",
+  "Telemedicine.Common.Infrastructure.IntegrationTesting": "\\common\\src\\Infrastructure\\IntegrationTesting\\IntegrationTesting.csproj",
+  "Telemedicine.Common.Infrastructure.DAL.Tests.EfCoreDalTests": "\\common\\src\\Infrastructure\\DAL\\Tests\\EfCoreDalTests\\EfCoreDalTests.csproj",
+  "Telemedicine.Common.Infrastructure.DAL.Tests.MigrationEfCoreCommonTests": "\\common\\src\\Infrastructure\\DAL\\Tests\\MigrationEfCoreCommonTests\\MigrationEfCoreCommonTests.csproj",
+  "Telemedicine.Common.Infrastructure.DomainEventInfrastructure": "\\common\\src\\Infrastructure\\DomainEventInfrastructure\\DomainEventInfrastructure.csproj",
+  "Telemedicine.Common.Infrastructure.SftpClient": "\\common\\src\\Infrastructure\\SftpClient\\SftpClient.csproj",
+  "Telemedicine.Common.Infrastructure.VidyoClient": "\\common\\src\\Infrastructure\\VidyoClient\\VidyoClient.csproj"
+}

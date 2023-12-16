@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Telemedicine.Services.AppointmentDomainService.API.Common</AssemblyName>
+    <RootNamespace>Telemedicine.Services.AppointmentDomainService.API.Common</RootNamespace>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.3" />
+    <PackageReference Include="Refit" Version="6.0.94" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\common\src\Contracts\GlobalContracts\GlobalContracts.csproj" />
+  </ItemGroup>
+
+</Project>

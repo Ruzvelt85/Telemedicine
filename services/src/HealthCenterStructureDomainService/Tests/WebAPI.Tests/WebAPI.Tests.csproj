@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Telemedicine.Services.HealthCenterStructureDomainService.Tests.WebAPI.Tests</AssemblyName>
+    <RootNamespace>Telemedicine.Services.HealthCenterStructureDomainService.Tests.WebAPI.Tests</RootNamespace>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.17.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.11" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="MockQueryable.Moq" Version="5.0.1" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\common\src\Infrastructure\Testing\Testing.csproj" />
+    <ProjectReference Include="..\..\HealthCenterStructureDomainService.WebAPI\HealthCenterStructureDomainService.WebAPI.csproj" />
+    <ProjectReference Include="..\Tests.Core\Tests.Core.csproj" />
+  </ItemGroup>
+
+</Project>

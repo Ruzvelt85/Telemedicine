@@ -1,0 +1,155 @@
+[
+  {
+    "Id": "0289D371-C4D5-4CC1-ABE2-42B0B9341A8B", // used in integration tests
+    "FirstName": "Helen",
+    "LastName": "Smith",
+    "PhoneNumber": "+1-212-543-4567",
+    "InnerId": "92040_CO",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "065AAF7F-C2CF-473E-A7CF-5CEC69CDADD5",
+    "FirstName": "Samantha",
+    "LastName": "Brown",
+    "PhoneNumber": "+1-212-123-5634",
+    "InnerId": "91349_NM",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "AAB4ED21-0933-4D1F-ADD8-6F2CF2468789",
+    "FirstName": "Angelina",
+    "LastName": "Filding",
+    "PhoneNumber": "+1-212-974-9835",
+    "InnerId": "81144_CO",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "58b27d52-8f42-4403-93a0-22f0d2c1839e",
+    "FirstName": "Filipe",
+    "LastName": "Pinheiro",
+    "PhoneNumber": "+351-999-99-0002",
+    "InnerId": "tst_telemedicine_2",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "2e08b4d0-3fcb-47db-b6ac-72ec8ee21753",
+    "FirstName": "Roman",
+    "LastName": "Ivanov",
+    "PhoneNumber": "+351-999-99-0012",
+    "InnerId": "tst_telemedicine_12",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "839CB053-11B1-45C3-8F1F-9496648ABAF2",
+    "FirstName": "Jose",
+    "LastName": "Lima",
+    "PhoneNumber": "+351-999-99-0008",
+    "InnerId": "tst_telemedicine_8",
+    "Type": "Doctor",
+    "IsAdmin": "True"
+  },
+  {
+    "Id": "AA7DC1DE-E953-4ADB-823A-D092D288028D",
+    "FirstName": "Tobe",
+    "LastName": "Soneson",
+    "PhoneNumber": "+8-204-611-1163",
+    "InnerId": "41651_CO",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "00F92654-B0FC-4BBC-A83E-0D17154C4129",
+    "FirstName": "Rani",
+    "LastName": "Rurik",
+    "PhoneNumber": "+0-173-256-2677",
+    "InnerId": "53056_CO",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "4B6C6C98-CB28-485F-82B0-4F392E80D73A",
+    "FirstName": "Adelle",
+    "LastName": "Buckler",
+    "PhoneNumber": "+2-781-335-1950",
+    "InnerId": "91530_NM",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "05956F4E-7EDA-42DC-97F5-90E872E548EB",
+    "FirstName": "Gilda",
+    "LastName": "Vacuva",
+    "PhoneNumber": "+9-620-757-7318",
+    "InnerId": "71104_VA",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "04BC36F0-F399-4FB4-8F18-4E872A76E838",
+    "FirstName": "Willetta",
+    "LastName": "Waldron",
+    "PhoneNumber": "+0-971-394-4143",
+    "InnerId": "21178_NM",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "7AF398DE-3DA7-445D-8616-DE1FB6B2FD1B",
+    "FirstName": "Jasmina",
+    "LastName": "Docilla",
+    "PhoneNumber": "+0-822-151-9648",
+    "InnerId": "22162_CO",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "EDBA394D-3816-41BA-B281-710EEA5A32BF",
+    "FirstName": "Corene",
+    "LastName": "Manolo",
+    "PhoneNumber": "+3-944-978-4796",
+    "InnerId": "51377_CA",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "E8B79073-82C0-449D-82A7-AE24A7AFEE0F",
+    "FirstName": "Collen",
+    "LastName": "Cecile",
+    "PhoneNumber": "+6-983-686-0833",
+    "InnerId": "71020_CO",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "2CB1E81B-3609-426A-9390-DDCCD670A61D",
+    "FirstName": "Vadim",
+    "LastName": "Cors",
+    "PhoneNumber": "+8-983-123-0555",
+    "InnerId": "81129_NM",
+    "Type": "Doctor",
+    "IsAdmin": "False"
+  },
+  {
+    "Id": "FE829FC7-E215-40D3-BB3B-5974A7FCF371",
+    "FirstName": "Harley",
+    "LastName": "Howard",
+    "PhoneNumber": "+1-512-293-2438",
+    "InnerId": "23814_PA",
+    "Type": "Doctor",
+    "IsAdmin": "True"
+  },
+  {
+    "Id": "4E96B76F-EBC6-4A79-8E71-CDD6456CE02D",
+    "FirstName": "Cassandra",
+    "LastName": "Foster",
+    "PhoneNumber": "+1-283-123-2143",
+    "InnerId": "23457_CO",
+    "Type": "Doctor",
+    "IsAdmin": "True"
+  }
+]

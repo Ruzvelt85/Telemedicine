@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "2566B439-76B6-4370-9833-63A94050774E",
+    "Name": "Team 1",
+    "InnerId": "91614_CO",
+    "HealthCenterId": "BB608923-866A-4008-A50F-B5042EE32AFB"
+  },
+  {
+    "Id": "232B7BB8-F892-4E84-B38B-E0A722D98B6D",
+    "Name": "Team 2",
+    "InnerId": "51046_NM",
+    "HealthCenterId": "BB608923-866A-4008-A50F-B5042EE32AFB"
+  },
+  {
+    "Id": "429BA23A-C0E0-44F2-98D8-ABC4C75468D9",
+    "Name": "Team 3",
+    "InnerId": "91305_CO",
+    "HealthCenterId": "BB608923-866A-4008-A50F-B5042EE32AFB"
+  },
+  {
+    "Id": "198F426F-34C3-4C84-9C7D-05B19E3B1414",
+    "Name": "Team 4",
+    "InnerId": "43526_CO",
+    "HealthCenterId": "5D1D4AA2-1BBC-434B-AF31-E1ACC14F463B"
+  },
+  {
+    "Id": "0934A44D-977D-4241-B975-987689A7F727",
+    "Name": "Team 5",
+    "InnerId": "31109_CA",
+    "HealthCenterId": "5D1D4AA2-1BBC-434B-AF31-E1ACC14F463B"
+  },
+  {
+    "Id": "344CCD5A-DE61-464B-AE39-B747518DC411",
+    "Name": "Team 6",
+    "InnerId": "83547_CO",
+    "HealthCenterId": "5D1D4AA2-1BBC-434B-AF31-E1ACC14F463B"
+  }
+]

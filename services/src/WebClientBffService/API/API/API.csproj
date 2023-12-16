@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Refit" Version="6.1.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\common\src\Business\BusinessLogic\BusinessLogic.csproj" />
+    <ProjectReference Include="..\..\..\..\..\common\src\Contracts\GlobalContracts\GlobalContracts.csproj" />
+    <ProjectReference Include="..\..\..\AppointmentDomainService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\..\..\HealthCenterStructureDomainService\API\API.Common\API.Common.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Telemedicine.Services.WebClientBffService.API</AssemblyName>
+    <RootNamespace>Telemedicine.Services.WebClientBffService.API</RootNamespace>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+</Project>

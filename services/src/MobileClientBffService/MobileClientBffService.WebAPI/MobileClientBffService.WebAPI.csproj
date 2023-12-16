@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Telemedicine.Services.MobileClientBffService.WebAPI</AssemblyName>
+    <RootNamespace>Telemedicine.Services.MobileClientBffService.WebAPI</RootNamespace>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\common\src\ServiceInfrastructure\ServiceStartup\ServiceStartup.csproj" />
+    <ProjectReference Include="..\..\AppointmentDomainService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\..\HealthMeasurementDomainService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\..\VideoConfIntegrService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\..\HealthCenterStructureDomainService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\API\API\API.csproj" />
+  </ItemGroup>
+
+</Project>

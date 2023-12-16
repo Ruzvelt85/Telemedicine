@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Telemedicine.Common.Business.BusinessLogic</AssemblyName>
+    <RootNamespace>Telemedicine.Common.Business.BusinessLogic</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TimeZoneConverter" Version="3.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Contracts\GlobalContracts\GlobalContracts.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Patterns\Patterns.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "18058A94-295E-4719-B1B7-41A7DE6471BA",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "PulseRate": "70",
+    "ClientDate": "2021-11-08 10:30:00"
+  },
+  {
+    "Id": "A4C918ED-F724-4B17-83D2-98214170DB80",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "PulseRate": "85",
+    "ClientDate": "2021-11-08 10:30:20"
+  },
+  {
+    "Id": "1184B2C4-63DD-44B8-B7A7-20CA334EB45B",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "PulseRate": "110",
+    "ClientDate": "2021-11-08 12:34:38"
+  },
+  {
+    "Id": "AA33B7BC-CF0B-4FCE-82A8-59E3B0673E8C",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "PulseRate": "65",
+    "ClientDate": "2021-11-09 13:00:14"
+  },
+  {
+    "Id": "8991FB0D-D262-4DF4-84F8-5DC465787125",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "PulseRate": "96",
+    "ClientDate": "2021-11-18 19:55:31"
+  },
+  {
+    "Id": "F2098500-21EB-4D8B-B592-AE440625277D",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "PulseRate": "100",
+    "ClientDate": "2021-12-01 15:29:55"
+  }
+]

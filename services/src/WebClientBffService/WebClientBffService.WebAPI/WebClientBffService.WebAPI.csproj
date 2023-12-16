@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Telemedicine.Services.WebClientBffService.WebAPI</AssemblyName>
+    <RootNamespace>Telemedicine.Services.WebClientBffService.WebAPI</RootNamespace>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\common\src\ServiceInfrastructure\ServiceStartup\ServiceStartup.csproj" />
+    <ProjectReference Include="..\..\AppointmentDomainService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\..\HealthMeasurementDomainService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\..\HealthCenterStructureDomainService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\..\VideoConfIntegrService\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\API\API\API.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

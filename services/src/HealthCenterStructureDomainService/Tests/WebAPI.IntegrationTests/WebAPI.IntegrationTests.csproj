@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <AssemblyName>Telemedicine.Services.HealthCenterStructureDomainService.Tests.WebAPI.IntegrationTests</AssemblyName>
+    <RootNamespace>Telemedicine.Services.HealthCenterStructureDomainService.Tests.WebAPI.IntegrationTests</RootNamespace>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+  <ItemGroup>
+      <Content Include="appsettings.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+          <PackageCopyToOutput>true</PackageCopyToOutput>
+      </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.17.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\common\src\Infrastructure\IntegrationTesting\IntegrationTesting.csproj" />
+    <ProjectReference Include="..\..\API\API.Common\API.Common.csproj" />
+    <ProjectReference Include="..\..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\Tests.Core\Tests.Core.csproj" />
+  </ItemGroup>
+
+</Project>

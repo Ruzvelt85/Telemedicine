@@ -1,0 +1,227 @@
+[
+  {
+    "Id": "AF7A34B3-3030-49A8-80AA-FA133B677DB3",
+    "Items": [
+      {
+        "Order": 1,
+        "SpO2": 97,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:35"
+      },
+      {
+        "Order": 2,
+        "SpO2": 99,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:36"
+      },
+      {
+        "Order": 3,
+        "SpO2": 97,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:36"
+      },
+      {
+        "Order": 4,
+        "SpO2": 98,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:36"
+      },
+      {
+        "Order": 5,
+        "SpO2": 99,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:36"
+      },
+      {
+        "Order": 6,
+        "SpO2": 98,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:36"
+      },
+      {
+        "Order": 7,
+        "SpO2": 97,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:36"
+      },
+      {
+        "Order": 8,
+        "SpO2": 98,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:37"
+      },
+      {
+        "Order": 9,
+        "SpO2": 99,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:37"
+      },
+      {
+        "Order": 10,
+        "SpO2": 98,
+        "PulseRate": 70,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-08 11:30:37"
+      }
+    ]
+  },
+  {
+    "Id": "B44D254D-3F14-4E2C-80E9-7B78E72B67CE",
+    "Items": [
+      {
+        "Order": 1,
+        "SpO2": 97,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:21"
+      },
+      {
+        "Order": 2,
+        "SpO2": 95,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:21"
+      },
+      {
+        "Order": 3,
+        "SpO2": 95,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:21"
+      },
+      {
+        "Order": 4,
+        "SpO2": 98,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:21"
+      },
+      {
+        "Order": 5,
+        "SpO2": 98,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:22"
+      },
+      {
+        "Order": 6,
+        "SpO2": 96,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:22"
+      },
+      {
+        "Order": 7,
+        "SpO2": 96,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:22"
+      },
+      {
+        "Order": 8,
+        "SpO2": 96,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:22"
+      },
+      {
+        "Order": 9,
+        "SpO2": 96,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:22"
+      },
+      {
+        "Order": 10,
+        "SpO2": 96,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 12:17:22"
+      }
+    ]
+  },
+  {
+    "Id": "4E497FC9-9AE4-42DC-B143-11F636CC4C0E",
+    "Items": [
+      {
+        "Order": 1,
+        "SpO2": 97,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:43"
+      },
+      {
+        "Order": 2,
+        "SpO2": 95,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:44"
+      },
+      {
+        "Order": 3,
+        "SpO2": 95,
+        "PulseRate": 65,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:44"
+      },
+      {
+        "Order": 4,
+        "SpO2": 98,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:44"
+      },
+      {
+        "Order": 5,
+        "SpO2": 98,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:44"
+      },
+      {
+        "Order": 6,
+        "SpO2": 96,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:45"
+      },
+      {
+        "Order": 7,
+        "SpO2": 96,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:45"
+      },
+      {
+        "Order": 8,
+        "SpO2": 96,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:45"
+      },
+      {
+        "Order": 9,
+        "SpO2": 96,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:45"
+      },
+      {
+        "Order": 10,
+        "SpO2": 96,
+        "PulseRate": 69,
+        "Pi": 0.10,
+        "ClientDate": "2021-11-09 13:17:45"
+      }
+    ]
+  }
+]

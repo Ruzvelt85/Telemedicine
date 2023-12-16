@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Telemedicine.Common.Infrastructure.SftpClient</AssemblyName>
+    <RootNamespace>Telemedicine.Common.Infrastructure.SftpClient</RootNamespace>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="JetBrains.Annotations" Version="2021.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="SSH.NET" Version="2020.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Contracts\GlobalContracts\GlobalContracts.csproj" />
+    <ProjectReference Include="..\..\ServiceInfrastructure\ServiceStartup\ServiceStartup.csproj" />
+    <ProjectReference Include="..\CommonInfrastructure\CommonInfrastructure.csproj" />
+    <ProjectReference Include="..\Logger\LoggerLibrarySerilogBase\LoggerLibrarySerilogBase.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<AssemblyName>Telemedicine.Services.MobileClientBffService.API</AssemblyName>
+		<RootNamespace>Telemedicine.Services.MobileClientBffService.API</RootNamespace>
+	  </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Refit" Version="6.1.15" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\..\..\common\src\Business\BusinessLogic\BusinessLogic.csproj" />
+	  <ProjectReference Include="..\..\..\..\..\common\src\Contracts\GlobalContracts\GlobalContracts.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "B4CA6135-4C45-4CB9-A05D-17B6D1053524",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Systolic": 120,
+    "Diastolic": 70,
+    "PulseRate": 60,
+    "ClientDate": "2021-11-08 10:30:00"
+  },
+  {
+    "Id": "BE82E9C4-764F-48F9-9E53-78C42D78BF06",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Systolic": 130,
+    "Diastolic": 80,
+    "PulseRate": 85,
+    "ClientDate": "2021-11-08 18:30:00"
+  },
+  {
+    "Id": "7787F4B9-498F-48DE-B207-73F3CA907841",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Systolic": 118,
+    "Diastolic": 74,
+    "PulseRate": 55,
+    "ClientDate": "2021-11-09 10:30:00"
+  },
+  {
+    "Id": "81EA0E16-E71C-4776-9F31-16F027EA0592",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Systolic": 127,
+    "Diastolic": 73,
+    "PulseRate": 63,
+    "ClientDate": "2021-11-08 18:30:00"
+  },
+  {
+    "Id": "2B171BDE-0054-4DBC-9D52-FBCB1BCC69AF",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Systolic": 140,
+    "Diastolic": 82,
+    "PulseRate": 82,
+    "ClientDate": "2021-11-10 10:30:00"
+  }
+]

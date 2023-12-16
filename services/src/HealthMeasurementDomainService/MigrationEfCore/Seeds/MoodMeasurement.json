@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "FB245514-88E9-48E0-96AA-FBE84C77FCC7",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Measure": "Sad",
+    "ClientDate": "2021-11-08 10:30:00"
+  },
+  {
+    "Id": "F0EEC4E8-F85A-4780-BDCB-6E60FE2C0FBD",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Measure": "Unhappy",
+    "ClientDate": "2021-11-08 10:30:20"
+  },
+  {
+    "Id": "BB35FF81-092A-49A9-BD36-A3C9BBA198EF",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Measure": "Neutral",
+    "ClientDate": "2021-11-08 12:34:38"
+  },
+  {
+    "Id": "B1601FBD-D35A-4899-ABEF-D1C84AAFE943",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Measure": "Satisfied",
+    "ClientDate": "2021-11-09 13:00:14"
+  },
+  {
+    "Id": "EA4EA801-1065-4E53-A99C-C46FAE8CFA7D",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Measure": "Happy",
+    "ClientDate": "2021-11-18 19:55:31"
+  },
+  {
+    "Id": "FE6AA2AE-6C1B-4012-8553-32C53FD02913",
+    "PatientId": "C3F1B4E2-4C72-437D-933F-879E031DC629",
+    "Measure": "Sad",
+    "ClientDate": "2021-12-01 15:29:55"
+  }
+]

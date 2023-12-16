@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Telemedicine.Services.AppointmentDomainService.Core</AssemblyName>
+    <RootNamespace>Telemedicine.Services.AppointmentDomainService.Core</RootNamespace>
+    </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'"><TreatWarningsAsErrors>True</TreatWarningsAsErrors></PropertyGroup>
+  
+  <ItemGroup>
+    <Folder Include="DAL\Configurations\" />
+  </ItemGroup>  
+
+  <ItemGroup>  
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>  
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\common\src\Infrastructure\DAL\EfCoreDal\EfCoreDal.csproj" />
+    <ProjectReference Include="..\..\..\..\common\src\Infrastructure\EntityBase\EntityBase.csproj" />
+    <ProjectReference Include="..\..\..\..\common\src\Infrastructure\Patterns\Patterns.csproj" />
+  </ItemGroup>
+
+</Project>

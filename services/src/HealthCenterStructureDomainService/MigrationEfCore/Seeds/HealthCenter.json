@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "BB608923-866A-4008-A50F-B5042EE32AFB", // used in integration tests
+    "Name": "Health Center 1",
+    "InnerId": "4020_PA",
+    "UsaState": "PA",
+    "IsDeleted": false
+  },
+  {
+    "Id": "5D1D4AA2-1BBC-434B-AF31-E1ACC14F463B",
+    "Name": "Health Center 2",
+    "InnerId": "3001_NM",
+    "UsaState": "NM",
+    "IsDeleted": false
+  },
+  {
+    "Id": "52A0218C-70F4-4B9B-A9B3-1C013D04D4C9",
+    "Name": "Health Center Without IDT Teams",
+    "InnerId": "2007_CO",
+    "UsaState": "CO",
+    "IsDeleted": false
+  }
+]

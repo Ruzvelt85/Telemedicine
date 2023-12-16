@@ -1,0 +1,147 @@
+version: '3.5'
+
+services:
+
+  healthcenterstructuredomainservice.webapi:
+    image: ${DOCKER_REGISTRY-}health-center-structure-domain-service-webapi
+    container_name: "health-center-structure-domain-service-webapi"
+    build:
+      context: .
+      dockerfile: services/src/HealthCenterStructureDomainService/HealthCenterStructureDomainService.WebAPI/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    ports:
+      - 5001:80
+
+  healthcenterstructuredomainservice.migration:
+    image: ${DOCKER_REGISTRY-}health-center-structure-domain-service-migration-ef-core
+    container_name: "health-center-structure-domain-service-migration-ef-core"
+    build:
+      context: .
+      dockerfile: services/src/HealthCenterStructureDomainService/MigrationEfCore/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    depends_on:
+      - database-postgres
+
+  appointmentdomainservice.webapi:
+    image: ${DOCKER_REGISTRY-}appointment-domain-service-webapi
+    container_name: "appointment-domain-service-webapi"
+    build:
+      context: .
+      dockerfile: services/src/AppointmentDomainService/AppointmentDomainService.WebAPI/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    ports:
+      - 5002:80
+
+  appointmentdomainservice.migration:
+    image: ${DOCKER_REGISTRY-}appointment-domain-service-migration-ef-core
+    container_name: "appointment-domain-service-migration-ef-core"
+    build:
+      context: .
+      dockerfile: services/src/AppointmentDomainService/MigrationEfCore/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    depends_on:
+      - database-postgres
+
+  healthmeasurementdomainservice.webapi:
+    image: ${DOCKER_REGISTRY-}health-measurement-domain-service-webapi
+    container_name: "health-measurement-domain-service-webapi"
+    build:
+      context: .
+      dockerfile: services/src/HealthMeasurementDomainService/HealthMeasurementDomainService.WebAPI/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    ports:
+      - 5006:80
+
+  healthmeasurementdomainservice.migration:
+    image: ${DOCKER_REGISTRY-}health-measurement-domain-service-migration-ef-core
+    container_name: "health-measurement-domain-service-migration-ef-core"
+    build:
+      context: .
+      dockerfile: services/src/HealthMeasurementDomainService/MigrationEfCore/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    depends_on:
+      - database-postgres
+
+  webclientbffservice.webapi:
+    image: ${DOCKER_REGISTRY-}web-client-bff-service-webapi
+    container_name: "web-client-bff-service-webapi"
+    build:
+      context: .
+      dockerfile: services/src/WebClientBffService/WebClientBffService.WebAPI/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    ports:
+      - 5003:80
+
+  mobileclientbffservice.webapi:
+    image: ${DOCKER_REGISTRY-}mobile-client-bff-service-webapi
+    container_name: "mobile-client-bff-service-webapi"
+    build:
+      context: .
+      dockerfile: services/src/MobileClientBffService/MobileClientBffService.WebAPI/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    ports:
+      - 5004:80
+      
+  videoconfintegrservice.webapi:
+    image: ${DOCKER_REGISTRY-}video-conference-integration-service-webapi
+    container_name: "video-conference-integration-service-webapi"
+    build:
+      context: .
+      dockerfile: services/src/VideoConfIntegrService/VideoConfIntegrService.WebAPI/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    ports:
+      - 5005:80
+
+  videoconfintegrservice.migration:
+    image: ${DOCKER_REGISTRY-}video-conference-integration-service-migration-ef-core
+    container_name: "video-conference-integration-service-migration-ef-core"
+    build:
+      context: .
+      dockerfile: services/src/VideoConfIntegrService/MigrationEfCore/Dockerfile
+      args:
+        SHIFT_PATH: ./services
+    depends_on:
+      - database-postgres
+
+  healthcheckui:
+    image: xabarilcoding/healthchecksui
+    container_name: "healthcheckui"
+    ports:
+      - 4999:80
+
+  database-postgres:
+    image: postgres:10.12
+    container_name: "database-postgres"
+    environment:
+      - POSTGRES_USER=sa
+      - POSTGRES_PASSWORD=Qwerty123
+      - POSTGRES_MULTIPLE_DATABASES=health_center_structure,appointment,health_measurement,video_conference
+    ports:
+      - 5432:5432
+    volumes:
+      - postgresql:/var/lib/postgresql/database-postgres
+      - postgresql_data:/var/lib/postgresql/database-postgres/data
+      - ./create-multiple-postgresql-databases.sh:/docker-entrypoint-initdb.d/create-multiple-postgresql-databases.sh
+
+  database-postgres-admin:
+    image: dpage/pgadmin4
+    container_name: "database-postgres-admin"
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'sa@sa.com'
+      PGADMIN_DEFAULT_PASSWORD: 'Qwerty123'
+    ports:
+      - 4998:80  
+
+volumes:
+  postgresql:
+  postgresql_data:
